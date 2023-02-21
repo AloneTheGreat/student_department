@@ -12,7 +12,6 @@ using student_department.Domain.Entities;
 using System;
 using System.Collections.Generic;
 using System.Text;
-
 namespace student_department.Application.Profiles
 {
     public class MappingProfile : Profile
@@ -23,12 +22,14 @@ namespace student_department.Application.Profiles
             CreateMap<Department, DepartmentListVm>();
             CreateMap<Department, DepartmentStudentListVm>();
             CreateMap<Department, CreateDepartmentDto>();
+            CreateMap<Department, DepartmentCoursesDto>();
             CreateMap<Department, DepartmentDto>();
 
             CreateMap<Course, CreateCourseDto>();
             CreateMap<Course, CourseListVm>();
             CreateMap<Course, CreateCourseDto>();
             CreateMap<Course, DepartmentCourseDto>();
+            CreateMap<Course, CoursesDto>();
 
             CreateMap<Student, CreateStudentCommand>().ReverseMap();
             CreateMap<Student, UpdateStudentCommand>().ReverseMap();

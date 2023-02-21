@@ -20,5 +20,11 @@ namespace student_department.Persistence.Repositories
             return Task.FromResult(matches);
         }
 
+        public async Task<List<Student>> GetAllStudentsWithDepartmentAndCourses()
+        {
+            var allStudents = await _dbContext.Students.Include(x => x.Department).ThenInclude(x => x.Courses).ToListAsync();
+            return allStudents;
+        }
+
     }
 }

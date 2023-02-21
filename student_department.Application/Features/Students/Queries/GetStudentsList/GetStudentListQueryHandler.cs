@@ -13,10 +13,10 @@ namespace student_department.Application.Features.Students.Queries.GetStudentsLi
 {
     public class GetStudentListQueryHandler : IRequestHandler<GetStudentListQuery, List<StudentListVm>>
     {
-        private readonly IAsyncRepository<Student> _studentRepository;
+        private readonly IStudentRepository _studentRepository;
         private readonly IMapper _mapper;
 
-        public GetStudentListQueryHandler(IMapper mapper, IAsyncRepository<Student> studentRepository)
+        public GetStudentListQueryHandler(IMapper mapper, IStudentRepository studentRepository)
         {
             _mapper = mapper;
             _studentRepository = studentRepository;
@@ -24,7 +24,7 @@ namespace student_department.Application.Features.Students.Queries.GetStudentsLi
 
         public async Task<List<StudentListVm>> Handle(GetStudentListQuery request, CancellationToken cancellationToken)
         {
-            var allstudents = (await _studentRepository.ListAllAsync()).OrderBy(x => x.FirstName);
+            var allstudents = (await _studentRepository.GetAllStudentsWithDepartmentAndCourses()).OrderBy(x => x.FirstName);
             return _mapper.Map<List<StudentListVm>>(allstudents);
         }
     }

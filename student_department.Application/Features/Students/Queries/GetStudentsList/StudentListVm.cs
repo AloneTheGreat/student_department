@@ -7,5 +7,6 @@ namespace student_department.Application.Features.Students.Queries.GetStudentsLi
         public Guid StudentId { get; set; }
         public string FirstName { get; set; }
         public string LastName { get; set; }
+        public DepartmentCoursesDto Department { get; set; }
     }
 }

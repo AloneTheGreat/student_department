@@ -9,5 +9,7 @@ namespace student_department.Application.Contracts.Persistence
     public interface IStudentRepository : IAsyncRepository<Student>
     {
         Task<bool> IsStudentEmailUnique(string Email);
+
+        Task<List<Student>> GetAllStudentsWithDepartmentAndCourses();
     }
 }
