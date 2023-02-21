@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "6wkdRIYVjQEM8g713hcwV+dzJ1ssJ52QMjIePDhIcYdgnvGYhyrqu84LqMovHodzkEUJt+Spq7ml7SaxYNHGzQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\mahmo\\OneDrive\\سطح المكتب\\DBS\\student_department\\student_department.Domain\\student_department.Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\mahmo\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\mahmo\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

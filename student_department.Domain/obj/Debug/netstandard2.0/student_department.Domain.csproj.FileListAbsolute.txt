@@ -1,0 +1,10 @@
+C:\Users\mahmo\OneDrive\سطح المكتب\DBS\student_department\student_department.Domain\bin\Debug\netstandard2.0\student_department.Domain.deps.json
+C:\Users\mahmo\OneDrive\سطح المكتب\DBS\student_department\student_department.Domain\bin\Debug\netstandard2.0\student_department.Domain.dll
+C:\Users\mahmo\OneDrive\سطح المكتب\DBS\student_department\student_department.Domain\bin\Debug\netstandard2.0\student_department.Domain.pdb
+C:\Users\mahmo\OneDrive\سطح المكتب\DBS\student_department\student_department.Domain\obj\Debug\netstandard2.0\student_department.Domain.csproj.AssemblyReference.cache
+C:\Users\mahmo\OneDrive\سطح المكتب\DBS\student_department\student_department.Domain\obj\Debug\netstandard2.0\student_department.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mahmo\OneDrive\سطح المكتب\DBS\student_department\student_department.Domain\obj\Debug\netstandard2.0\student_department.Domain.AssemblyInfoInputs.cache
+C:\Users\mahmo\OneDrive\سطح المكتب\DBS\student_department\student_department.Domain\obj\Debug\netstandard2.0\student_department.Domain.AssemblyInfo.cs
+C:\Users\mahmo\OneDrive\سطح المكتب\DBS\student_department\student_department.Domain\obj\Debug\netstandard2.0\student_department.Domain.csproj.CoreCompileInputs.cache
+C:\Users\mahmo\OneDrive\سطح المكتب\DBS\student_department\student_department.Domain\obj\Debug\netstandard2.0\student_department.Domain.dll
+C:\Users\mahmo\OneDrive\سطح المكتب\DBS\student_department\student_department.Domain\obj\Debug\netstandard2.0\student_department.Domain.pdb
