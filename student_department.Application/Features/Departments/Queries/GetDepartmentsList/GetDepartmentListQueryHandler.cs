@@ -25,7 +25,7 @@ namespace student_department.Application.Features.Departments.Queries.GetDepartm
 
         public async Task<List<DepartmentListVm>> Handle(GetDepartmentListQuery request, CancellationToken cancellationToken)
         {
-            var list = await _departmentRepository.GetDepartmentsWithCourses();
+            var list = await _departmentRepository.GetDepartmentsWithTeachers();
             return _mapper.Map<List<DepartmentListVm>>(list);
         }
     }

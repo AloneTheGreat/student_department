@@ -9,6 +9,6 @@ namespace student_department.Application.Contracts.Persistence
     public interface IDepartmentRepository : IAsyncRepository<Department>
     {
         Task<List<Department>> GetDepartmentsWithStudents();
-        Task<List<Department>> GetDepartmentsWithCourses();
+        Task<List<Department>> GetDepartmentsWithTeachers();
     }
 }

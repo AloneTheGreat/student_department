@@ -39,7 +39,7 @@ namespace student_department.Application.Features.Courses.Commands.CreateCourse
             }
             if (createCourseCommandResponse.Success)
             {
-                var course = new Course() { CourseName = Request.CourseName, DepartmentId = Request.DepartmentId };
+                var course = new Course() { CourseName = Request.CourseName, TeacherId = Request.TeacherId };
                 course = await _courseRepository.AddAsync(course);
                 createCourseCommandResponse.Course = _mapper.Map<CreateCourseDto>(course);
             }

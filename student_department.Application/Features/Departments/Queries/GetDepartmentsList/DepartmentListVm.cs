@@ -10,6 +10,6 @@ namespace student_department.Application.Features.Departments.Queries.GetDepartm
     {
         public Guid DepartmentId { get; set; }
         public string DepartmentName { get; set;}
-        public ICollection<DepartmentCourseDto> Courses { get; set; }
+        public ICollection<DepartmentTeacherDto> Teachers { get; set; }
     }
 }

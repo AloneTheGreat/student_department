@@ -9,6 +9,6 @@ namespace student_department.Application.Features.Courses.Queries.GetCoursesList
     {
         public Guid CourseId { get; set; }
         public string CourseName { get; set;}
-        public Guid DepartmentId { get; set;}
+        public CourseTeacherDto Teacher { get; set;}
     }
 }

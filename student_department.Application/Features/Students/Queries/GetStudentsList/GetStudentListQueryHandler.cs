@@ -24,7 +24,7 @@ namespace student_department.Application.Features.Students.Queries.GetStudentsLi
 
         public async Task<List<StudentListVm>> Handle(GetStudentListQuery request, CancellationToken cancellationToken)
         {
-            var allstudents = (await _studentRepository.GetAllStudentsWithDepartmentAndCourses()).OrderBy(x => x.FirstName);
+            var allstudents = (await _studentRepository.GetAllStudentsWithDepartment()).OrderBy(x => x.FirstName);
             return _mapper.Map<List<StudentListVm>>(allstudents);
         }
     }

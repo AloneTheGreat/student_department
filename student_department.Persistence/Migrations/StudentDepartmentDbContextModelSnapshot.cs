@@ -28,12 +28,12 @@ namespace student_department.Persistence.Migrations
                     b.Property<string>("CourseName")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<Guid>("DepartmentId")
+                    b.Property<Guid>("TeacherId")
                         .HasColumnType("uniqueidentifier");
 
                     b.HasKey("CourseId");
 
-                    b.HasIndex("DepartmentId");
+                    b.HasIndex("TeacherId");
 
                     b.ToTable("Courses");
                 });
@@ -77,11 +77,30 @@ namespace student_department.Persistence.Migrations
                     b.ToTable("Students");
                 });
 
+            modelBuilder.Entity("student_department.Domain.Entities.Teacher", b =>
+                {
+                    b.Property<Guid>("TeacherId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<Guid?>("DepartmentId")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<string>("TeacherName")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("TeacherId");
+
+                    b.HasIndex("DepartmentId");
+
+                    b.ToTable("Teachers");
+                });
+
             modelBuilder.Entity("student_department.Domain.Entities.Course", b =>
                 {
-                    b.HasOne("student_department.Domain.Entities.Department", "Department")
+                    b.HasOne("student_department.Domain.Entities.Teacher", "Teacher")
                         .WithMany("Courses")
-                        .HasForeignKey("DepartmentId")
+                        .HasForeignKey("TeacherId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
                 });
@@ -93,6 +112,13 @@ namespace student_department.Persistence.Migrations
                         .HasForeignKey("DepartmentId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
+                });
+
+            modelBuilder.Entity("student_department.Domain.Entities.Teacher", b =>
+                {
+                    b.HasOne("student_department.Domain.Entities.Department", "Department")
+                        .WithMany("Teachers")
+                        .HasForeignKey("DepartmentId");
                 });
 #pragma warning restore 612, 618
         }

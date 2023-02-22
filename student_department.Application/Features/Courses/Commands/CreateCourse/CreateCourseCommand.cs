@@ -8,6 +8,6 @@ namespace student_department.Application.Features.Courses.Commands.CreateCourse
     public class CreateCourseCommand : IRequest<CreateCourseCommandResponse>
     {
         public string CourseName { get; set; }
-        public Guid DepartmentId { get; set; }
+        public Guid TeacherId { get; set; }
     }
 }

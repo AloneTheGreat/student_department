@@ -10,6 +10,6 @@ namespace student_department.Application.Contracts.Persistence
     {
         Task<bool> IsStudentEmailUnique(string Email);
 
-        Task<List<Student>> GetAllStudentsWithDepartmentAndCourses();
+        Task<List<Student>> GetAllStudentsWithDepartment();
     }
 }

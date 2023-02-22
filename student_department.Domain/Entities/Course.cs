@@ -8,7 +8,7 @@ namespace student_department.Domain.Entities
     {
         public Guid CourseId { get; set; }
         public string CourseName { get; set; }
-        public Guid DepartmentId { get; set; }
-        public Department Department { get; set; }
+        public Guid TeacherId { get; set; }
+        public Teacher Teacher { get; set; }
     }
 }
