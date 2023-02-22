@@ -14,30 +14,21 @@ namespace student_department.Application.Features.Courses.Queries.GetCoursesList
 {
     public class GetCourseListQueryHandler : IRequestHandler<GetCourseListQuery, List<CourseListVm>>
     {
-        private readonly IAsyncRepository<Course> _courseRepository;
-        private readonly IAsyncRepository<Teacher> _teacherRepository;
-        private readonly IAsyncRepository<Department> _departmentRepository;
+        private readonly ICourseRepository _courseRepository;
         private readonly IMapper _mapper;
 
-        public GetCourseListQueryHandler(IMapper mapper, IAsyncRepository<Course> courseRepository, IAsyncRepository<Teacher> teacherRepository, IAsyncRepository<Department> departmentRepository)
+        public GetCourseListQueryHandler(IMapper mapper, ICourseRepository courseRepository)
         {
             _mapper = mapper;
             _courseRepository = courseRepository;
-            _teacherRepository = teacherRepository;
-            _departmentRepository = departmentRepository;
         }
 
         public async Task<List<CourseListVm>> Handle(GetCourseListQuery request, CancellationToken cancellationToken)
         {
-            var allCourses = (await _courseRepository.ListAllAsync()).OrderBy(x => x.CourseName);
-            foreach (var course in allCourses)
-            {
-                var teacher = await _teacherRepository.GetByIdAsync(course.TeacherId);
-                course.Teacher = teacher;
-                var department = await _departmentRepository.GetByIdAsync(course.Teacher.DepartmentId);
-                course.Teacher.Department = department;
-            }
-            return _mapper.Map<List<CourseListVm>>(allCourses);
+            var allCourses = (await _courseRepository.GetAllWithDeatails()).OrderBy(x => x.CourseName);
+            
+            var result= _mapper.Map<List<CourseListVm>>(allCourses);
+            return result;
         }
     }
 }

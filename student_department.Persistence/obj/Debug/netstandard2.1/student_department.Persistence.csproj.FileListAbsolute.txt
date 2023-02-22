@@ -1,8 +1,3 @@
-C:\Users\mahmo\OneDrive\سطح المكتب\DBS\student_department\student_department.Persistence\obj\Debug\netstandard2.1\student_department.Persistence.csproj.AssemblyReference.cache
-C:\Users\mahmo\OneDrive\سطح المكتب\DBS\student_department\student_department.Persistence\obj\Debug\netstandard2.1\student_department.Persistence.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\mahmo\OneDrive\سطح المكتب\DBS\student_department\student_department.Persistence\obj\Debug\netstandard2.1\student_department.Persistence.AssemblyInfoInputs.cache
-C:\Users\mahmo\OneDrive\سطح المكتب\DBS\student_department\student_department.Persistence\obj\Debug\netstandard2.1\student_department.Persistence.AssemblyInfo.cs
-C:\Users\mahmo\OneDrive\سطح المكتب\DBS\student_department\student_department.Persistence\obj\Debug\netstandard2.1\student_department.Persistence.csproj.CoreCompileInputs.cache
 C:\Users\mahmo\OneDrive\سطح المكتب\DBS\student_department\student_department.Persistence\bin\Debug\netstandard2.1\student_department.Persistence.deps.json
 C:\Users\mahmo\OneDrive\سطح المكتب\DBS\student_department\student_department.Persistence\bin\Debug\netstandard2.1\student_department.Persistence.dll
 C:\Users\mahmo\OneDrive\سطح المكتب\DBS\student_department\student_department.Persistence\bin\Debug\netstandard2.1\student_department.Persistence.pdb
@@ -10,6 +5,11 @@ C:\Users\mahmo\OneDrive\سطح المكتب\DBS\student_department\student_depar
 C:\Users\mahmo\OneDrive\سطح المكتب\DBS\student_department\student_department.Persistence\bin\Debug\netstandard2.1\student_department.Domain.dll
 C:\Users\mahmo\OneDrive\سطح المكتب\DBS\student_department\student_department.Persistence\bin\Debug\netstandard2.1\student_department.Application.pdb
 C:\Users\mahmo\OneDrive\سطح المكتب\DBS\student_department\student_department.Persistence\bin\Debug\netstandard2.1\student_department.Domain.pdb
+C:\Users\mahmo\OneDrive\سطح المكتب\DBS\student_department\student_department.Persistence\obj\Debug\netstandard2.1\student_department.Persistence.csproj.AssemblyReference.cache
+C:\Users\mahmo\OneDrive\سطح المكتب\DBS\student_department\student_department.Persistence\obj\Debug\netstandard2.1\student_department.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mahmo\OneDrive\سطح المكتب\DBS\student_department\student_department.Persistence\obj\Debug\netstandard2.1\student_department.Persistence.AssemblyInfoInputs.cache
+C:\Users\mahmo\OneDrive\سطح المكتب\DBS\student_department\student_department.Persistence\obj\Debug\netstandard2.1\student_department.Persistence.AssemblyInfo.cs
+C:\Users\mahmo\OneDrive\سطح المكتب\DBS\student_department\student_department.Persistence\obj\Debug\netstandard2.1\student_department.Persistence.csproj.CoreCompileInputs.cache
 C:\Users\mahmo\OneDrive\سطح المكتب\DBS\student_department\student_department.Persistence\obj\Debug\netstandard2.1\student_department.Persistence.csproj.CopyComplete
 C:\Users\mahmo\OneDrive\سطح المكتب\DBS\student_department\student_department.Persistence\obj\Debug\netstandard2.1\student_department.Persistence.dll
 C:\Users\mahmo\OneDrive\سطح المكتب\DBS\student_department\student_department.Persistence\obj\Debug\netstandard2.1\student_department.Persistence.pdb

@@ -16,32 +16,14 @@ using System.Collections.Generic;
 using System.Text;
 namespace student_department.Application.Profiles
 {
-    public class MappingProfile : Profile
+    public class TeacherMappingProfile : Profile
     {
-        public MappingProfile()
+        public TeacherMappingProfile()
         {
-            CreateMap<Department, DepartmentListVm>();
-            CreateMap<Department, DepartmentStudentListVm>();
-            CreateMap<Department, CreateDepartmentDto>();
-            CreateMap<Department, DepartmentDto>();
-            CreateMap<Department, StudentDepartmentDto>();
-            CreateMap<Department, TeacherDepartmentDto>();
-            CreateMap<Department, CourseDepartmentDto>();
-
-            CreateMap<Course, CreateCourseDto>();
-            CreateMap<Course, CourseListVm>();
-            CreateMap<Course, TeacherCourseDto>();
-
             CreateMap<Teacher, TeacherListVm>().ReverseMap();
             CreateMap<Teacher, CreateTeacherCommand>().ReverseMap();
             CreateMap<Teacher, DepartmentTeacherDto>().ReverseMap();
             CreateMap<Teacher, CourseTeacherDto>().ReverseMap();
-
-            CreateMap<Student, CreateStudentCommand>().ReverseMap();
-            CreateMap<Student, UpdateStudentCommand>().ReverseMap();
-            CreateMap<Student, StudentDetailVm>().ReverseMap();
-            CreateMap<Student, StudentListVm>().ReverseMap();
-            CreateMap<Student, DepartmentStudentDto>().ReverseMap();
         }
     }
 }

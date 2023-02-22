@@ -1,10 +1,3 @@
-C:\Users\mahmo\OneDrive\سطح المكتب\DBS\student_department\student_department.Api\obj\Debug\netcoreapp3.1\student_department.Api.csproj.AssemblyReference.cache
-C:\Users\mahmo\OneDrive\سطح المكتب\DBS\student_department\student_department.Api\obj\Debug\netcoreapp3.1\student_department.Api.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\mahmo\OneDrive\سطح المكتب\DBS\student_department\student_department.Api\obj\Debug\netcoreapp3.1\student_department.Api.AssemblyInfoInputs.cache
-C:\Users\mahmo\OneDrive\سطح المكتب\DBS\student_department\student_department.Api\obj\Debug\netcoreapp3.1\student_department.Api.AssemblyInfo.cs
-C:\Users\mahmo\OneDrive\سطح المكتب\DBS\student_department\student_department.Api\obj\Debug\netcoreapp3.1\student_department.Api.csproj.CoreCompileInputs.cache
-C:\Users\mahmo\OneDrive\سطح المكتب\DBS\student_department\student_department.Api\obj\Debug\netcoreapp3.1\student_department.Api.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\mahmo\OneDrive\سطح المكتب\DBS\student_department\student_department.Api\obj\Debug\netcoreapp3.1\student_department.Api.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\mahmo\OneDrive\سطح المكتب\DBS\student_department\student_department.Api\bin\Debug\netcoreapp3.1\appsettings.Development.json
 C:\Users\mahmo\OneDrive\سطح المكتب\DBS\student_department\student_department.Api\bin\Debug\netcoreapp3.1\appsettings.json
 C:\Users\mahmo\OneDrive\سطح المكتب\DBS\student_department\student_department.Api\bin\Debug\netcoreapp3.1\student_department.Api.exe
@@ -148,6 +141,13 @@ C:\Users\mahmo\OneDrive\سطح المكتب\DBS\student_department\student_depar
 C:\Users\mahmo\OneDrive\سطح المكتب\DBS\student_department\student_department.Api\bin\Debug\netcoreapp3.1\student_department.Application.pdb
 C:\Users\mahmo\OneDrive\سطح المكتب\DBS\student_department\student_department.Api\bin\Debug\netcoreapp3.1\student_department.Persistence.pdb
 C:\Users\mahmo\OneDrive\سطح المكتب\DBS\student_department\student_department.Api\bin\Debug\netcoreapp3.1\student_department.Domain.pdb
+C:\Users\mahmo\OneDrive\سطح المكتب\DBS\student_department\student_department.Api\obj\Debug\netcoreapp3.1\student_department.Api.csproj.AssemblyReference.cache
+C:\Users\mahmo\OneDrive\سطح المكتب\DBS\student_department\student_department.Api\obj\Debug\netcoreapp3.1\student_department.Api.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mahmo\OneDrive\سطح المكتب\DBS\student_department\student_department.Api\obj\Debug\netcoreapp3.1\student_department.Api.AssemblyInfoInputs.cache
+C:\Users\mahmo\OneDrive\سطح المكتب\DBS\student_department\student_department.Api\obj\Debug\netcoreapp3.1\student_department.Api.AssemblyInfo.cs
+C:\Users\mahmo\OneDrive\سطح المكتب\DBS\student_department\student_department.Api\obj\Debug\netcoreapp3.1\student_department.Api.csproj.CoreCompileInputs.cache
+C:\Users\mahmo\OneDrive\سطح المكتب\DBS\student_department\student_department.Api\obj\Debug\netcoreapp3.1\student_department.Api.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\mahmo\OneDrive\سطح المكتب\DBS\student_department\student_department.Api\obj\Debug\netcoreapp3.1\student_department.Api.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\mahmo\OneDrive\سطح المكتب\DBS\student_department\student_department.Api\obj\Debug\netcoreapp3.1\staticwebassets\student_department.Api.StaticWebAssets.Manifest.cache
 C:\Users\mahmo\OneDrive\سطح المكتب\DBS\student_department\student_department.Api\obj\Debug\netcoreapp3.1\staticwebassets\student_department.Api.StaticWebAssets.Pack.cache
 C:\Users\mahmo\OneDrive\سطح المكتب\DBS\student_department\student_department.Api\obj\Debug\netcoreapp3.1\staticwebassets\msbuild.student_department.Api.Microsoft.AspNetCore.StaticWebAssets.props
